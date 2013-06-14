@@ -8,7 +8,7 @@
 ## Created at:    Sun May 26 12:45:27 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Sat Jun  1 15:47:25 2013
+## Modified at:   Fri Jun 14 16:45:51 2013
 ## Description:   
 ##                
 ######################################################################
@@ -36,3 +36,6 @@ sudo pip install xhtml2pdf
 
 # for python-sphinx
 sudo pip install sphinx
+
+# for nose-test
+sudo pip install nose

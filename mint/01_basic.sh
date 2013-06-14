@@ -8,7 +8,7 @@
 ## Created at:    Sun May 26 13:35:42 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Mon Jun 10 19:20:11 2013
+## Modified at:   Thu Jun 13 17:27:30 2013
 ## Description:   
 ##                
 ######################################################################
@@ -61,3 +61,7 @@ sudo apt-get install -y openvpn
 
 # keepnote
 sudo apt-get install -y keepnote
+
+
+# 两台电脑共用键盘、鼠标
+sudo apt-get install -y synergy
