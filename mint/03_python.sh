@@ -8,7 +8,7 @@
 ## Created at:    Sun May 26 12:45:27 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Fri Jun 14 16:45:51 2013
+## Modified at:   Tue Jun 25 15:59:29 2013
 ## Description:   
 ##                
 ######################################################################
@@ -30,7 +30,6 @@ sudo apt-get install -y libtool xsltproc xcb-proto
 # from ubuntu
 sudo apt-get install -y libxcb1 libxcb1-dev
 
-
 # for html to pdf
 sudo pip install xhtml2pdf
 
@@ -39,3 +38,12 @@ sudo pip install sphinx
 
 # for nose-test
 sudo pip install nose
+
+# for requests library
+sudo pip install requests
+
+# for python for github pages
+sudo pip install pelican
+
+# for trac2rst
+sudo pip install trac2rst

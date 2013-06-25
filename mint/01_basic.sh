@@ -8,7 +8,7 @@
 ## Created at:    Sun May 26 13:35:42 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Thu Jun 13 17:27:30 2013
+## Modified at:   Wed Jun 19 14:50:40 2013
 ## Description:   
 ##                
 ######################################################################
@@ -54,14 +54,17 @@ sudo apt-get install -y shutter
 # for tree
 sudo apt-get install -y tree
 
-
 # openvpn
 sudo apt-get install -y openvpn
-
 
 # keepnote
 sudo apt-get install -y keepnote
 
-
 # 两台电脑共用键盘、鼠标
 sudo apt-get install -y synergy
+
+# dos文件和unix文件换行转换
+sudo apt-get install -y tofrodos
+
+# mosh
+sudo apt-get install -y mosh
