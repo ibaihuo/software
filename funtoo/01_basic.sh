@@ -8,7 +8,7 @@
 ## Created at:    Sun May 26 13:35:42 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Mon Jul  1 21:41:23 2013
+## Modified at:   Sat Jul  6 01:14:38 2013
 ## Description:   
 ##                
 ######################################################################
@@ -62,3 +62,18 @@ sudo emerge -u tofrodos
 
 # mosh
 sudo emerge -u mosh
+
+# 设置背景桌面
+emrege -u hsetroot
+
+# 选择最快的mirror
+emerge -u mirrorselect
+
+# 彩色的top
+emerge -u htop
+
+# 软件查询
+emerge -u eix
+
+#  openvpn
+emerge -u openvpn

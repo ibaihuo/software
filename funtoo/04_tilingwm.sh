@@ -7,7 +7,7 @@
 ## Created at:    Mon May 27 12:01:04 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Mon Jul  1 21:56:59 2013
+## Modified at:   Tue Jul  2 07:50:19 2013
 ## Description:   
 ##                
 ######################################################################
@@ -22,3 +22,6 @@ sudo emerge -u wqy-zenhei
 sudo emerge -u i3lock
 
 sudo emerge -u qtile
+
+# for qtile wifi network
+sudo pip install wifi
