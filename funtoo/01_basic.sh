@@ -8,7 +8,7 @@
 ## Created at:    Sun May 26 13:35:42 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Sat Jul  6 01:14:38 2013
+## Modified at:   Sun Jul  7 17:50:58 2013
 ## Description:   
 ##                
 ######################################################################
@@ -77,3 +77,13 @@ emerge -u eix
 
 #  openvpn
 emerge -u openvpn
+
+
+# mplayer
+emerge -u mplayer
+
+# for amixer, volume
+sudo emerge -u alsa-utils
+
+# for layman
+sudo emerge -u layman

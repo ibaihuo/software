@@ -8,7 +8,7 @@
 ## Created at:    Sun May 26 12:45:27 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Mon Jul  1 14:57:49 2013
+## Modified at:   Mon Jul 15 15:42:56 2013
 ## Description:   
 ##                
 ######################################################################
@@ -18,7 +18,7 @@ info="python开发环境..."
 install_info_start ${info}
 sudo emerge -u setuptools dev-python/pip
 # for ipython
-sudo pip install ipython
+sudo pip install ipython bpython
 install_info_end ${info}
 
 
@@ -49,3 +49,7 @@ sudo pip install genshi		   # 渲染页面，当前版本：Genshi-0.6.tar.gz
 
 # for trac2rst
 sudo pip install trac2rst
+
+sudo pip install landslide
+
+sudo pip install jieba
