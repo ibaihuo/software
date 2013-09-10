@@ -7,21 +7,21 @@
 ## Created at:    Mon May 27 12:01:04 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Tue Jul  2 07:50:19 2013
+## Modified at:   Wed Sep  4 18:28:53 2013
 ## Description:   
 ##                
 ######################################################################
 
 # for i3
-sudo emerge -u i3
+emerge -u i3
 
-# for i3 chinese
-sudo emerge -u wqy-zenhei
+# for chinese
+emerge -u wqy-bitmapfont wqy-microhei wqy-zenhei 
 
 # for lock
-sudo emerge -u i3lock
+emerge -u i3lock
 
-sudo emerge -u qtile
+emerge -u qtile
 
 # for qtile wifi network
-sudo pip install wifi
+pip install wifi

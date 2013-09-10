@@ -8,13 +8,23 @@
 ## Created at:    Sun May 26 13:35:42 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Sun Jul  7 17:50:58 2013
+## Modified at:   Mon Sep  2 20:49:29 2013
 ## Description:   
 ##                
 ######################################################################
 
 # sudo
-sudo emerge -u sudo gnome-terminal gedit firefox virtualbox truecrypt
+emerge -u sudo
+
+emerge -u gnome-terminal
+
+emerge -u gedit
+
+emerge -u firefox
+
+emerge -u virtualbox
+
+emerge -u truecrypt
 
 # wifi network
 emerge -u linux-firmware networkmanager
@@ -24,44 +34,44 @@ emerge -u linux-firmware networkmanager
 # eselect profile set-flavor
 # eselect profile set-build
 
-sudo emerge -u fcitx
+emerge -u fcitx
 
-sudo emerge -u zim
+emerge -u zim
 
 # a lightweight window manager
-sudo emerge -u pcmanfm
+emerge -u pcmanfm
 
 # for man
-sudo emerge -u most
+emerge -u most
 
 # for download
-sudo emerge -u axel aria2
+emerge -u axel aria2
 
 
 # password keeper
-sudo emerge -u revelation
+emerge -u revelation
 
 # for shutter
-sudo emerge -u shutter
+emerge -u shutter
 
 
 # list directory and files as a tree
-sudo emerge -u app-text/tree
+emerge -u app-text/tree
 
 # openvpn
-sudo emerge -u openvpn
+emerge -u openvpn
 
 # keepnote
-sudo emerge -u keepnote
+emerge -u keepnote
 
 # 两台电脑共用键盘、鼠标
-sudo emerge -u synergy
+emerge -u synergy
 
 # dos文件和unix文件换行转换
-sudo emerge -u tofrodos
+emerge -u tofrodos
 
 # mosh
-sudo emerge -u mosh
+emerge -u mosh
 
 # 设置背景桌面
 emrege -u hsetroot
@@ -75,15 +85,18 @@ emerge -u htop
 # 软件查询
 emerge -u eix
 
-#  openvpn
-emerge -u openvpn
-
 
 # mplayer
 emerge -u mplayer
 
 # for amixer, volume
-sudo emerge -u alsa-utils
+emerge -u alsa-utils
 
 # for layman
-sudo emerge -u layman
+emerge -u layman
+
+
+# dev-perl/rename
+emerge -u dev-perl/rename
+# ubuntu rename
+# /usr/bin/perl-rename

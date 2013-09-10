@@ -8,7 +8,7 @@
 ## Created at:    Sun May 26 12:45:27 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Mon Jul 15 15:42:56 2013
+## Modified at:   Tue Aug 27 18:17:16 2013
 ## Description:   
 ##                
 ######################################################################
@@ -16,40 +16,42 @@
 #python开发环境
 info="python开发环境..."
 install_info_start ${info}
-sudo emerge -u setuptools dev-python/pip
+emerge -u setuptools dev-python/pip
 # for ipython
-sudo pip install ipython bpython
+pip install ipython bpython
 install_info_end ${info}
 
 
 # for qtile
 # compile libxcb:   for qtile/libxcb
-sudo emerge -u libtool xcb-proto
+emerge -u libtool xcb-proto
 
 # for html to pdf
-sudo pip install xhtml2pdf
+pip install xhtml2pdf
 
 # for python-sphinx
-sudo pip install sphinx
+pip install sphinx
 
 # for nose-test
-sudo pip install nose
+pip install nose
 
 # for requests library
-sudo pip install requests
+pip install requests
 
 # for python for github pages
-sudo pip install pelican
+pip install pelican
 
 
 # for trac
-sudo emerge -u pygments	# 语法高亮
-sudo pip install babel		   # 多语言支持, 当前版本Babel-0.9.6.tar.gz
-sudo pip install genshi		   # 渲染页面，当前版本：Genshi-0.6.tar.gz
+emerge -u pygments	# 语法高亮
+pip install babel		   # 多语言支持, 当前版本Babel-0.9.6.tar.gz
+pip install genshi		   # 渲染页面，当前版本：Genshi-0.6.tar.gz
 
 # for trac2rst
-sudo pip install trac2rst
+pip install trac2rst
 
-sudo pip install landslide
+pip install landslide
 
-sudo pip install jieba
+pip install jieba
+
+pip install httpie
