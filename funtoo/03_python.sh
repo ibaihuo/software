@@ -8,7 +8,7 @@
 ## Created at:    Sun May 26 12:45:27 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Tue Aug 27 18:17:16 2013
+## Modified at:   Fri Sep 13 17:57:19 2013
 ## Description:   
 ##                
 ######################################################################
@@ -55,3 +55,5 @@ pip install landslide
 pip install jieba
 
 pip install httpie
+
+pip install pyes

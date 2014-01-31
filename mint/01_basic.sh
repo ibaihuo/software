@@ -2,13 +2,13 @@
 ######################################################################
 ## Filename:      01_basic.sh
 ##                
-## Copyright (C) 2013,  renewjoy
+## Copyright (C) 2013-2014,  renewjoy
 ## Version:       
 ## Author:        renewjoy <oyea9le@gmail.com>
 ## Created at:    Sun May 26 13:35:42 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Wed Jun 19 14:50:40 2013
+## Modified at:   Wed Jan 15 12:11:39 2014
 ## Description:   
 ##                
 ######################################################################
@@ -68,3 +68,7 @@ sudo apt-get install -y tofrodos
 
 # mosh
 sudo apt-get install -y mosh
+
+sudo apt-get install -y zsh
+
+sudo apt-get install -y w3m

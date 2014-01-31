@@ -8,7 +8,7 @@
 ## Created at:    Sun May 26 12:45:27 2013
 ##                
 ## Modified by:   renewjoy <oyea9le@gmail.com>
-## Modified at:   Tue Jun 25 15:59:29 2013
+## Modified at:   Sat Nov  9 21:52:55 2013
 ## Description:   
 ##                
 ######################################################################
@@ -47,3 +47,6 @@ sudo pip install pelican
 
 # for trac2rst
 sudo pip install trac2rst
+
+# for django 
+sudo pip install django
